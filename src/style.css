@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+  color: white;
+}
+.buttonClass {
+  height: 10vh;
+  width: 20rem;
+  background: tomato;
+  border: none;
+  border-radius: 4rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.buttonClass:hover {
+  height: 12vh;
+  transition: 0.1s;
+}
+.blue {
+  background: indigo;
+  color: white;
+}
